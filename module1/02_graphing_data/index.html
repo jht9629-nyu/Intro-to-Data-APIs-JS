@@ -8,11 +8,13 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
-    <h1>Global Average Temperatures 1880-2018</h1>
+    <h1>Global Average Temperatures 1880-2024</h1>
     <canvas id="myChart" width="400" height="200"></canvas>
 
     <script>
       // Data from: https://data.giss.nasa.gov/gistemp/
+      // https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
+      //
       // Mean from: https://earthobservatory.nasa.gov/world-of-change/DecadalTemp
 
       window.addEventListener('load', setup);
@@ -31,11 +33,11 @@
                 fill: false,
                 borderColor: 'rgba(255, 99, 132, 1)',
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
-                borderWidth: 1
-              }
-            ]
+                borderWidth: 1,
+              },
+            ],
           },
-          options: {}
+          options: {},
         });
       }
 
@@ -46,7 +48,7 @@
         const years = [];
         const temps = [];
         const rows = data.split('\n').slice(1);
-        rows.forEach(row => {
+        rows.forEach((row) => {
           const cols = row.split(',');
           years.push(cols[0]);
           temps.push(14 + parseFloat(cols[1]));
