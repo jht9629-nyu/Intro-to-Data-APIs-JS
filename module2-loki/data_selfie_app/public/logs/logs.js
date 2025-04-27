@@ -16,7 +16,7 @@ async function getData() {
     const dateString = new Date(item.timestamp).toLocaleString();
     date.textContent = dateString;
     image.src = item.image64;
-    image.alt = 'Dan Shiffman making silly faces.';
+    image.alt = 'silly faces.';
 
     root.append(mood, geo, date, image);
     document.body.append(root);
