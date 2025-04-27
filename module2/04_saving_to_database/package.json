@@ -14,7 +14,7 @@
   "author": "Daniel Shiffman",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "nedb": "^1.8.0"
+    "@seald-io/nedb": "^4.1.1",
+    "express": "^4.16.4"
   }
 }
