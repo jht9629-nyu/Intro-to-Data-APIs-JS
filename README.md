@@ -2,8 +2,14 @@
 
 This document is an outline for the Coding Train playlist: ["Working with Data and APIs in JavaScript"](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=1)
 
-* [Main Track on the Coding Train Website](https://thecodingtrain.com/tracks/data-and-apis-in-javascript)
-* [Youtube Playlist](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
+- [Main Track on the Coding Train Website](https://thecodingtrain.com/tracks/data-and-apis-in-javascript)
+- [Youtube Playlist](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
+
+## Updates
+
+Modified in branch 2025 of [forked repo](https://github.com/jht9629-nyu/Intro-to-Data-APIs-JS) for latest tempuratures
+
+- [module1/02_graphing_data_exercise_multiple/index.html](module1/02_graphing_data_exercise_multiple/index.html)
 
 ## Description
 
