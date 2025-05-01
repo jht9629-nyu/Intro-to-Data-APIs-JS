@@ -7,7 +7,9 @@ This document is an outline for the Coding Train playlist: ["Working with Data a
 
 ## Updates
 
-Modified in branch 2025 of [forked repo](https://github.com/jht9629-nyu/Intro-to-Data-APIs-JS) for latest tempuratures
+- nedb replaced by @seald-io/nedb
+
+- Modified in branch 2025 of [forked repo](https://github.com/jht9629-nyu/Intro-to-Data-APIs-JS) for latest tempuratures
 
 - [module1/02_graphing_data_exercise_multiple/index.html](module1/02_graphing_data_exercise_multiple/index.html)
 

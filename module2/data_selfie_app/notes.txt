@@ -1,0 +1,18 @@
+notes.txt
+
+# do once
+npm install nodemon --save-dev
+
+# 
+npm run dev
+
+
+module2/data_selfie_app/package.json
+  "scripts": {
+    "dev": "nodemon index.js"
+
+
+# --
+
+Original install:
+12 vulnerabilities (3 low, 4 high, 5 critical)

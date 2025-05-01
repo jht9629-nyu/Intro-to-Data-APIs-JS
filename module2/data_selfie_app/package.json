@@ -4,7 +4,8 @@
   "description": "This is the data selfie app by Joey Lee.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "example",
@@ -16,5 +17,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
