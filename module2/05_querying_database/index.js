@@ -12,8 +12,10 @@ database.loadDatabase();
 
 app.get('/api', (request, response) => {
   database.find({}, (err, data) => {
-    console.log('get data', data);
+    console.log('database.find data', data);
     if (err) {
+      console.log('database.find err', err);
+      console.log('database.find data', data);
       response.end();
       return;
     }
@@ -25,10 +27,13 @@ app.post('/api', (request, response) => {
   const data = request.body;
   const timestamp = Date.now();
   data.timestamp = timestamp;
+
+  // Insert the data into the database and check for errors
   console.log('database.insert data', data);
-  database.insert(data, function (err, newDoc) {
-    console.log('database insert err', err);
-    console.log('database insert newDoc', newDoc);
+  database.insert(data, (err, newDoc) => {
+    console.log('database.insert  err', err);
+    console.log('database.insert  newDoc', newDoc);
   });
+
   response.json(data);
 });

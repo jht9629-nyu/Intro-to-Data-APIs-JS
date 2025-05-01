@@ -1,11 +1,33 @@
 notes.txt
 
+# --
+
+module2/data_selfie_app
+-- modified for fresh install
+-- nedb --> @seald-io/nedb
+
+
+# --
+
+
 # do once
 npm install nodemon --save-dev
 
-# 
+# run edit-reload workflow
 npm run dev
 
+```
+https://github.com/seald/nedb
+
+npm uninstall nedb
+npm install @seald-io/nedb
+
+And then change the code to:
+
+const Datastore = require('@seald-io/nedb')
+```
+
+# --
 
 module2/data_selfie_app/package.json
   "scripts": {
@@ -16,3 +38,28 @@ module2/data_selfie_app/package.json
 
 Original install:
 12 vulnerabilities (3 low, 4 high, 5 critical)
+
+rm package-lock.json
+
+npm install express
+
+    "express": "^5.1.0"
+
+npm install @seald-io/nedb
+added 21 packages, and audited 88 packages in 1s
+
+    "@seald-io/nedb": "^4.1.1",
+
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+npm install nodemon --save-dev
+added 27 packages, and audited 115 packages in 1s
+
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+
+  "scripts": {
+    "dev": "nodemon index.js"
+

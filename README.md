@@ -5,6 +5,10 @@ This document is an outline for the Coding Train playlist: ["Working with Data a
 - [Main Track on the Coding Train Website](https://thecodingtrain.com/tracks/data-and-apis-in-javascript)
 - [Youtube Playlist](https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
 
+## Latest data_selfie
+
+- https://github.com/jht9629-nyu/data_selfie
+
 ## Updates
 
 - nedb replaced by @seald-io/nedb
@@ -12,20 +16,6 @@ This document is an outline for the Coding Train playlist: ["Working with Data a
 - Modified in branch 2025 of [forked repo](https://github.com/jht9629-nyu/Intro-to-Data-APIs-JS) for latest tempuratures
 
 - [module1/02_graphing_data_exercise_multiple/index.html](module1/02_graphing_data_exercise_multiple/index.html)
-
-```
-
-https://github.com/seald/nedb
-
-npm uninstall nedb
-npm install @seald-io/nedb
-
-And then change the code to:
-
-const Datastore = require('@seald-io/nedb')
-
-
-```
 
 ## Description
 
