@@ -1,5 +1,6 @@
 const express = require('express');
-const Datastore = require('nedb');
+// const Datastore = require('nedb');
+const Datastore = require('@seald-io/nedb');
 
 const app = express();
 app.listen(3000, () => console.log('listening at 3000'));

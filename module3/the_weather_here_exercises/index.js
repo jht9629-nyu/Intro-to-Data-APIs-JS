@@ -1,5 +1,7 @@
 const express = require('express');
-const Datastore = require('nedb');
+// const Datastore = require('nedb');
+const Datastore = require('@seald-io/nedb');
+
 const fetch = require('node-fetch');
 require('dotenv').config();
 
@@ -50,7 +52,7 @@ app.get('/weather/:latlon', async (request, response) => {
 
   const data = {
     weather: weather_data,
-    air_quality: aq_data
+    air_quality: aq_data,
   };
   response.json(data);
 });

@@ -11,6 +11,20 @@ Modified in branch 2025 of [forked repo](https://github.com/jht9629-nyu/Intro-to
 
 - [module1/02_graphing_data_exercise_multiple/index.html](module1/02_graphing_data_exercise_multiple/index.html)
 
+```
+
+https://github.com/seald/nedb
+
+npm uninstall nedb
+npm install @seald-io/nedb
+
+And then change the code to:
+
+const Datastore = require('@seald-io/nedb')
+
+
+```
+
 ## Description
 
 This course is for aspiring developers who want to learn how to work with data in web applications. How do you retrieve, collect, and store data? The course will be taught through a series of creating three data projects. The first will be client-side only and examine how to load data with `fetch()` and present on a web page. Viewers will learn about handling asynchronous events with Promises and how to render data to the DOM as well as a draw to HTML5 canvas with p5.js. The second and third project will introduce "full stack" development adding server-side programming with node.js for data persistence and API authentication.
